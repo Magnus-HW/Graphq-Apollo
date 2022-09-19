@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server": "^3.10.2",
+    "datasource-sql": "^2.0.1",
+    "graphql": "^16.6.0",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "pg": "^8.8.0"
+  },
+  "compilerOptions": {
+    "checkJs": true
+  }
+}
